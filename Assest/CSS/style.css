@@ -1,0 +1,29 @@
+
+body {
+background-color:#F4BD9C;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h2 {
+   font-family: Comic sans ms;
+   font-size: 12px;
+}
+
+#clock {
+  font-size: 75px;
+  font-family: Comic sans ms;
+  color:#B68D40;
+  width: 900px;
+  margin: 200px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px;
+}

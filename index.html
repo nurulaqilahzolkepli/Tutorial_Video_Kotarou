@@ -1,0 +1,156 @@
+<html>
+<head>
+<title> MULTIMEDIA </title>
+
+<br><br><br><br>
+<!--- MARQUEE --->
+<br><br><br><br>
+<hr><h2><font color="purple">
+<marquee direction="down"><center><h1>Hi! I'm nurul aqilah zolkepli🐛</center></h1></h2></marquee>
+<hr>
+<br><br>
+
+<link href="Assest/CSS/style.css" rel="stylesheet" type="">
+
+</head>
+<body>
+
+
+<br><br>
+<center><hr><font color="Blue">
+^-^
+<hr>
+<Center><font color="Purple"><b><p>Gakuen Babysitters🐻</p></b>
+
+<!--- INSERTING VIDEO --->
+<video width="100%" autoplay muted loop>
+<source src="Assest/VIDEO/brap_brap_dance.mp4" type="video/mp4">
+</video>
+<br><br>
+<center><video controls width="720px" muted loop> 
+<source src="Assest/VIDEO/name_train_dance.mp4" type="video/mp4">
+</video>
+</video>
+<br><br><br><br>
+<hr><font color="Blue">
+My Favorite Music <3
+<hr>
+
+
+<!--- INSERTING AUDIO --->
+<br>
+<center><font color="Black"><b><p>Wherever You Are 🌱 One Ok Rock</p></b>
+<center><audio controls width="" loop> 
+<source src="Assest/AUDIO/Wherever_you_are.mp3" type="audio/mp3">
+</audio>
+<br><br>
+<center><font color="Purple"><b><p>Everything Has Change 🌱 Taylor Swift</p></b>
+<center><audio controls width="" loop> 
+<source src="Assest/AUDIO/Everything_Has_Changed.mp3" type="audio/mp3">
+</audio>
+<br><br>
+<center><font color="Red"><b><p>Black 🌱 GDragon</p></b>
+<center><audio controls width="" loop> 
+<source src="Assest/AUDIO/Black.mp3" type="audio/mp3">
+</audio>
+<br><br>
+<center><font color="Blue"><b><p>Ref:rain 🌱 Aimer</p></b>
+<center><audio controls width="" loop> 
+<source src="Assest/AUDIO/Ref_rain.mp3" type="audio/mp3">
+</audio>
+<br><br>
+<center><font color="Brown"><b><p>Nelangsa 🌱 Nidji</p></b>
+<center><audio controls width="" loop> 
+<source src="Assest/AUDIO/Nelangsa.mp3" type="audio/mp3">
+</audio>
+
+<br><br><br><br>
+<!--- EMBEDOING PDF FILE --->
+<br><br><br><br>
+<hr><font color="Black">
+Risalah Kecil ;)
+<hr>
+<br><br>
+<Iframe src="Assest/PDF/kerana_dirimu_terlalu_berharga.pdf" width="80%" height="800px">
+</Iframe>
+
+<br><br><br><br>
+<!--- EMBEDOING YOUTUBE FILE --->
+<br><br><br><br>
+<hr><font color="Red">
+What Happens to You After You Die?
+<hr>
+<!--- MARQUEE --->
+<h2><font color="#F4EBD0">
+<marquee direction="up"><scrollamount="5"><scrolldelay="10"><center><h1> #JudgmentDay with Dr. Omar Suleiman</center></h1></h2></marquee>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oBI24qlEvn8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<!--- EMBEDOING YOUTUBE FILE --->
+<br><br><br><br>
+<hr><font color="brown">
+Jannah Is Waiting for You
+<hr>
+<!--- MARQUEE --->
+<h2><font color="#F4EBD0">
+<marquee direction="up"><scrollamount="5"><scrolldelay="10"><center><h1> #JannahSeries with Dr. Omar Suleiman</center></h1></h2></marquee>
+<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tks5sXy2r0w?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> </iframe>
+
+
+<br><br>
+<!--- APPLYING JAVA APPLET --->
+<br><br><br><br>
+<hr><font color="#9D1B6F">
+How can you not make time for The One (Allah) who created time
+<hr>
+
+<!--- TO CALL THE CSS --->
+<div id="clock">8:10:45</div>
+
+<!--- IMAGE--->
+<image src="Assest/IMAGE/Kotarou.jpeg">
+
+<!--- TO LINK FOR A CURRENT TIME --->
+<script src="clock2.js"></script>
+
+<br><br><br><br>
+<!--- MARQUEE --->
+<br><br><br><br>
+<hr><font color="purple">
+<marquee><scrollamount="3.5"><behavior="alternate"><h1> ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬Thank you for scrolling¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬ </h1><loop></marquee>
+<hr>
+<br><br>
+
+<script>
+setInterval(showTime, 1000);
+function showTime() {
+    let time = new Date();
+    let hour = time.getHours();
+    let min = time.getMinutes();
+    let sec = time.getSeconds();
+    am_pm = "AM";
+  
+    if (hour > 12) {
+        hour -= 12;
+        am_pm = "PM";
+    }
+    if (hour == 0) {
+        hr = 12;
+        am_pm = "AM";
+    }
+  
+    hour = hour < 10 ? "0" + hour : hour;
+    min = min < 10 ? "0" + min : min;
+    sec = sec < 10 ? "0" + sec : sec;
+  
+    let currentTime = hour + ":" 
+            + min + ":" + sec + am_pm;
+  
+    document.getElementById("clock")
+            .innerHTML = currentTime;
+}
+showTime();
+</script>
+</body>
+</html>
